@@ -20,51 +20,72 @@
         border: 1px solid white;
     }
     
-/*------------------------Programme home page section */
+/*------------------------ Home page  */
 
-.cara-item {
-    font-size: 0;
+.home-intro-text-div {
+    text-align: center;
+    margin-top: 10px;
 }
 
-.pro-carousel-caption {
-    color: #0c1f35;
-    font-size: 27px;
-    font-weight: 400;
-    font-family: Noto Sans KR, sans-serif;
-}
-
-.pro-carousel-heading {
-    color: #0c1f35;
-    font-size: 33px;
-    font-weight: 400;
+.home-intro-heading {
     font-family: Oswald, sans-serif;
+    font-size: 23px;
+}
+
+.home-intro-text {
+    font-family: Noto Sans KR, sans-serif; 
+    font-size: 19px;
+}
+
+/*------------------------Programme page  */
+
+.programme-page-header {
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.programme-sub-caption {
-    font-family: Noto Sans KR, sans-serif;
-    max-width: 40%;
+.programme-page-subtitles {
+    margin-top: 12px;
+    margin-bottom: 15px;
     text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+}
+
+.Workout-plan-image-div {
     margin: 0 auto;
-    padding-top: 11px;
-    padding-bottom: 15px;
-    font-size: 1.8vh;
+    text-align: center;
 }
 
-.programme-to-contact i {
-    font-size: 18p;
-    color: #0c1f35;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.Workout-plan-image {
+    width: 80%;
 }
 
-.breif-about {
+.programme-page-text {
     text-align: center;
-    letter-spacing: 1px;
+    font-family: Noto Sans KR, sans-serif;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.programme-button-div {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.btn-contact {
+    font-size: 20px;
+    background-color: rgb(102, 102, 102);
+    border: 2px solid white;
+    font-weight: 500;
+    color: #fafafa;
 }
 
 /*------------------------About me page*/
@@ -106,6 +127,94 @@
     font-size: 16px;
 }
 
+/*------------------------Mechandise page*/
+
+.merch-container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.merch-card-cols {
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.merch-cards {
+    text-align: center;
+    background-color: rgb(141, 141, 141); 
+    height: 90%;
+    width: 90%;
+    font-family: Noto Sans KR, sans-serif;
+    color: #ececec;
+    font-size: 17px;
+    margin: 0 auto;
+}
+
+.card-container {
+    justify-content: space-around;
+}
+
+.flexbox-item {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.card-1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card{
+    height: 340px;
+    width: 250px;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.front,
+.back{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: 'Lobster', cursive;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.front{
+    background: linear-gradient(#08aeea, #2af598);
+    z-index: 2;
+    backface-visibility: hidden;
+}
+
+.back{
+    background: linear-gradient(#f8da61, #ff5acd);
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.container:hover .card{
+    transform: rotateY(180deg);
+}
+
+.container{
+    perspective: 1000px;
+}
+
+.product-card {
+    height: 80%;
+    width: 80%;
+}
+
 /*------------------------Contact page*/
 
 .contact-heading {
@@ -119,6 +228,11 @@
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+}
+
+.contact-input-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 button[type="submit"] {
@@ -155,12 +269,17 @@ button[type="submit"] {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.body-bg-color {
+.body-bg-color, body, section {
     background-color: #ececec;
 }
 
 .bg-color-contact {
     background-color: #ececec;
+}
+
+.home-merch-cards {
+    background-color: rgb(141, 141, 141);
+    height: 400px;
 }
 
 /*------------------------special paddings/ margins/ sizes*/
@@ -203,11 +322,6 @@ button[type="submit"] {
     margin-bottom: 0;
 }
 
-.breif-about {
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
 .personal-pic {
     max-width: 300px;
     text-align: center;
@@ -229,11 +343,14 @@ button[type="submit"] {
     background-size: cover;
 }
 
-.second-home-section {
-    padding-top: 24px;
-    padding-bottom: 30px;
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
 }
 
+.home-merch-section {
+    margin-top: 30px;
+}
 
 /*------------------footer*/
 
