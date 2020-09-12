@@ -37,6 +37,22 @@
     font-size: 19px;
 }
 
+.btn-home {
+    padding: 0;
+}
+
+.cta-link {
+    color: #0c1f35;
+    font-family: Noto Sans KR, sans-serif; 
+    width: 100%;
+    height: 100%;
+}
+
+.cta-link:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 /*------------------------Programme page  */
 
 .programme-page-header {
@@ -59,10 +75,14 @@
 .Workout-plan-image-div {
     margin: 0 auto;
     text-align: center;
+    height: 50%;
+    width: 76%;
 }
 
 .Workout-plan-image {
     width: 80%;
+    height: 80%;
+    border-radius: 46%;
 }
 
 .programme-page-text {
@@ -73,6 +93,12 @@
     margin: 0 auto;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+.programme-list {
+    text-align: justify;
+    padding-top: 8px;
+    padding-left: 22px;
 }
 
 .programme-button-div {
@@ -129,90 +155,35 @@
 
 /*------------------------Mechandise page*/
 
-.merch-container {
-    text-align: center;
+.merchandise-cards {
+    background-color: rgb(105, 105, 105);
+    height: 190px;
+    max-width: 76%;
     margin: 0 auto;
 }
 
-.merch-card-cols {
-    height: 250px;
+.merch-card-image-div {
+    padding: 0 0 0;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 10px;
 }
 
-.merch-cards {
-    text-align: center;
-    background-color: rgb(141, 141, 141); 
-    height: 90%;
-    width: 90%;
-    font-family: Noto Sans KR, sans-serif;
-    color: #ececec;
-    font-size: 17px;
-    margin: 0 auto;
-}
-
-.card-container {
-    justify-content: space-around;
-}
-
-.flexbox-item {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 15px;
-}
-
-.card-1 {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.card{
-    height: 340px;
-    width: 250px;
-    position: relative;
-    transition: all 1s linear;
-    transform-style: preserve-3d;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.front,
-.back{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    font-family: 'Lobster', cursive;
-    border-radius: 10px;
-    position: absolute;
-}
-
-.front{
-    background: linear-gradient(#08aeea, #2af598);
-    z-index: 2;
-    backface-visibility: hidden;
-}
-
-.back{
-    background: linear-gradient(#f8da61, #ff5acd);
-    z-index: 1;
-    transform: rotateY(180deg);
-}
-
-.container:hover .card{
-    transform: rotateY(180deg);
-}
-
-.container{
-    perspective: 1000px;
-}
-
-.product-card {
-    height: 80%;
+.merch-images {
+    margin-top: 15px;
+    margin-left: 6px;
     width: 80%;
+}
+
+.merch-text {
+    color: white;
+    font-size: 19px;
+    margin: 14px 11px 0px;
+}
+
+.merch-drop-down {
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 /*------------------------Contact page*/
