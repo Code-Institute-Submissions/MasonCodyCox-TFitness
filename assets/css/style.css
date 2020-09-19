@@ -1,396 +1,380 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
 /*------------------------Heading*/
 
 .nav-name {
-    font-family: Oswald, sans-serif;
-    font-size: 25px;
-    letter-spacing: 1px;
-    margin-top: 0px;
-    margin-left: 0px;
-    padding-top: 0px;
-    text-transform: uppercase;
-    color: #fafafa;
-    }
+  font-family: Oswald, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  text-transform: uppercase;
+  color: #fafafa;
+}
 
 .nav-logo {
-        width: 75px;
-        height: 75px;
-        border: 1px solid white;
-    }
-    
+  width: 75px;
+  height: 75px;
+  border: 1px solid white;
+}
+
 /*------------------------ Home page  */
 
 .home-intro-text-div {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .home-intro-heading {
-    font-family: Oswald, sans-serif;
-    font-size: 23px;
+  font-family: Oswald, sans-serif;
+  font-size: 23px;
 }
 
 .home-intro-text {
-    font-family: Noto Sans KR, sans-serif; 
-    font-size: 19px;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 19px;
 }
 
 .btn-home {
-    padding: 0;
+  padding: 0;
 }
 
 .cta-link {
-    color: #0c1f35;
-    font-family: Noto Sans KR, sans-serif; 
-    width: 100%;
-    height: 100%;
+  color: #0c1f35;
+  font-family: Noto Sans KR, sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 .cta-link:hover {
-    text-decoration: none;
-    color: #fafafa;
+  text-decoration: none;
+  color: #fafafa;
 }
 
 /*------------------------Programme page  */
 
 .programme-page-header {
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .programme-page-subtitles {
-    margin-top: 12px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-family: Oswald, sans-serif;
-    font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 24px;
 }
 
 .Workout-plan-image-div {
-    margin: 0 auto;
-    text-align: center;
-    height: 50%;
-    width: 76%;
+  margin: 0 auto;
+  text-align: center;
+  height: 50%;
+  width: 76%;
 }
 
 .Workout-plan-image {
-    width: 80%;
-    height: 80%;
-    border-radius: 46%;
+  width: 80%;
+  height: 80%;
+  border-radius: 46%;
 }
 
 .programme-page-text {
-    text-align: center;
-    font-family: Noto Sans KR, sans-serif;
-    font-size: 20px;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
+  text-align: center;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .programme-list {
-    text-align: justify;
-    padding-top: 8px;
-    padding-left: 22px;
+  text-align: justify;
+  padding-top: 8px;
+  padding-left: 22px;
 }
 
 .programme-button-div {
-    text-align: center;
-    margin-bottom: 18px;
+  text-align: center;
+  margin-bottom: 18px;
 }
 
 .btn-contact {
-    font-size: 20px;
-    background-color: rgb(102, 102, 102);
-    border: 2px solid white;
-    font-weight: 500;
-    color: #fafafa;
+  font-size: 20px;
+  background-color: rgb(102, 102, 102);
+  border: 2px solid white;
+  font-weight: 500;
+  color: #fafafa;
 }
 
 /*------------------------About me page*/
 
-.container {
-  position: relative;
+.about-me-quote {
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 14px;
   text-align: center;
-  width: 80%;
-  height: 50%;
-  max-height: 50%;
-  margin-top: 33px;
 }
 
-.about-me-image-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: Oswald, sans-serif;
-  font-size: 4vw;
-  letter-spacing: 1px;
-  font-weight: 400;
-  text-transform: uppercase;
+.about-me-section {
+    margin-top: 13px;
 }
 
-.about-text-divs {
-    margin-top: 18px;
+.about-me-personal-col {
 }
 
-.about-text-headings {
+.about-me-personal-pic {
+  margin: 0 auto;
+}
+
+.about-me-profile-pic {
+  width: 100%;
+}
+
+.about-me-heading-text-div {
+}
+
+.about-me-heading-name {
     font-family: Oswald, sans-serif;
-    font-size: 28px;
-    letter-spacing: 1px;
-    font-weight: 500;
+    font-size: 5.5vh;
+    text-align: center;
 }
 
-.about-text {
+.about-me-heading-title {
+    font-family: Oswald, sans-serif;
+    font-size: 4.8vh;
+    text-align: center;
+}
+
+.about-me-heading-text {
     font-family: Noto Sans KR, sans-serif;
-    font-size: 16px;
-}
-
-/*------------------------Mechandise page*/
-
-.merchandise-cards {
-    background-color: rgb(105, 105, 105);
-    height: 190px;
-    max-width: 76%;
-    margin: 0 auto;
-}
-
-.merch-card-image-div {
-    padding: 0 0 0;
-    text-align: center;
-}
-
-.merch-images {
-    margin-top: 15px;
-    margin-left: 6px;
-    width: 80%;
-}
-
-.merch-text {
-    color: white;
-    font-size: 19px;
-    margin: 14px 11px 0px;
-}
-
-.merch-drop-down {
-    color: white;
     font-size: 18px;
-    padding-top: 20px;
-    text-align: center;
+    margin-top: 20px;
 }
 
 /*------------------------Contact page*/
 
 .contact-heading {
-    font-family: Noto Sans KR, sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+  font-family: Noto Sans KR, sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.contact-text-div > h3 {
+  width: 60%;
 }
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+  margin: 0 auto;
+  max-width: 70%;
+  padding-top: 10px;
 }
 
 .contact-input-bar {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button[type="submit"] {
-    font-family: Oswald, sans-serif;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: black;
-    border: 2px solid #0c1f35;
-    background-color: #d4af36;
+  font-family: Oswald, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: black;
+  border: 2px solid #0c1f35;
+  background-color: #d4af36;
 }
 
 .hvr-shutter-out-vertical:before {
-    background: #0c1f35;
-    color: #ececec;
+  background: #0c1f35;
+  color: #ececec;
 }
 
 /*------------------------Footer*/
 /*------------------------Bg colours*/
 
 .nav-bg-color {
-      background-color: #0c1f35;
+  background-color: #0c1f35;
 }
 
 .social-link li a i:hover {
-    background: #d4af36;
+  background: #d4af36;
 }
 
 .programme-to-contact i:hover {
-    color: #d4af36;
+  color: #d4af36;
 }
-
 
 .cara-item {
-    background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
-.body-bg-color, body, section {
-    background-color: #ececec;
+.body-bg-color,
+body,
+section {
+  background-color: #ececec;
 }
 
 .bg-color-contact {
-    background-color: #ececec;
+  background-color: #ececec;
 }
 
 .home-merch-cards {
-    background-color: rgb(141, 141, 141);
-    height: 400px;
+  background-color: rgb(141, 141, 141);
+  height: 400px;
 }
 
 /*------------------------special paddings/ margins/ sizes*/
 
-.mainp-titles{
-    font-family: Oswald, sans-serif;
-    letter-spacing: 1px;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
+.mainp-titles {
+  font-family: Oswald, sans-serif;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .breakline {
-    width: 320px;
-    height: 5px;
-    border: 0;
-    background-color: #0c1f35;
+  width: 320px;
+  height: 5px;
+  border: 0;
+  background-color: #0c1f35;
 }
 
 .section-seperator {
-    width: 400px;
-    height: 10%;
-    border: 0;
-    background-color: white;
+  width: 400px;
+  height: 10%;
+  border: 0;
+  background-color: white;
 }
 
 #pro-heading {
-    font-family: Oswald, sans-serif;
-    letter-spacing: 1px;
-    margin-top: 20px;
-    font-weight: 300;
+  font-family: Oswald, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  font-weight: 300;
 }
 
 .foot-address {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .tfit-footer {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .personal-pic {
-    max-width: 300px;
-    text-align: center;
-    margin: 0 auto;
-    align-content: center;
-    position: relative;
-    background-size: cover;
-    min-height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  align-content: center;
+  position: relative;
+  background-size: cover;
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .personal-pic-container {
-    margin: 0 auto;
-    text-align: center;
-    align-content: center;
-    background-position: center;
-    background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .flexbox-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .home-merch-section {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /*------------------footer*/
 
 footer {
-    background-color: #0c1f35;
-    color: #fafafa;
-    min-width: 120px;
-    margin: 0;
-    text-align: center;
+  background-color: #0c1f35;
+  color: #fafafa;
+  min-width: 120px;
+  margin: 0;
+  text-align: center;
 }
 
 #footer-details {
-    padding: 20px;
+  padding: 20px;
 }
 
 .contact-footer i {
-    font-size: 18p;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  font-size: 18p;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .contact-footer i:hover {
-    color: #d4af36;
+  color: #d4af36;
 }
 
 .social-link {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .social-link li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 /*------------------@media*/
 
 @media (min-width: 300px) and (max-width: 640px) {
-    #pro-heading { font-size: 30px; }
+  #pro-heading {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 640px) and (max-width: px) {
-    #pro-heading { font-size: 36px; }
+  #pro-heading {
+    font-size: 36px;
+  }
 }
 
 @media (min-width: 300px) and (max-width: 985px) {
-    .navbar-text { font-size: 0px; }
+  .navbar-text {
+    font-size: 0px;
+  }
 }
 
-@media(min-width:992px) {
-   .center-form {
+@media (min-width: 992px) {
+  .center-form {
     padding-top: 30px;
     min-height: 248px;
     margin: 0 auto;
     max-width: 50%;
-} 
+  }
 }
