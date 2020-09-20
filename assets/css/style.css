@@ -4,6 +4,7 @@
 /*------------------------Heading*/
 
 .nav-name {
+  color: #fafafa;
   font-family: Oswald, sans-serif;
   font-size: 25px;
   letter-spacing: 1px;
@@ -11,30 +12,49 @@
   margin-left: 0px;
   padding-top: 0px;
   text-transform: uppercase;
-  color: #fafafa;
 }
 
 .nav-logo {
-  width: 75px;
-  height: 75px;
   border: 1px solid white;
+  height: 75px;
+  width: 75px;
 }
 
 /*------------------------ Home page  */
 
-.home-intro-text-div {
+.mainpage-title {
+  font-family: Oswald, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
   text-align: center;
-  margin-top: 10px;
 }
 
-.home-intro-heading {
+.first-section-with-picture {
+    margin-bottom: 20px;
+}
+
+.home-text-section {
+    background-color: rgb(208, 242, 252);
+}
+
+.home-intro-text-div {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.home-intro-headings {
   font-family: Oswald, sans-serif;
-  font-size: 23px;
+  font-size: 4.8vh;
+  text-decoration: underline;
 }
 
 .home-intro-text {
   font-family: Noto Sans KR, sans-serif;
-  font-size: 19px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .btn-home {
@@ -44,74 +64,13 @@
 .cta-link {
   color: #0c1f35;
   font-family: Noto Sans KR, sans-serif;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .cta-link:hover {
+  color: #fafafa;
   text-decoration: none;
-  color: #fafafa;
-}
-
-/*------------------------Programme page  */
-
-.programme-page-header {
-  text-align: center;
-  font-family: Oswald, sans-serif;
-  font-size: 28px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.programme-page-subtitles {
-  margin-top: 12px;
-  margin-bottom: 15px;
-  text-align: center;
-  font-family: Oswald, sans-serif;
-  font-size: 24px;
-}
-
-.Workout-plan-image-div {
-  margin: 0 auto;
-  text-align: center;
-  height: 50%;
-  width: 76%;
-}
-
-.Workout-plan-image {
-  width: 80%;
-  height: 80%;
-  border-radius: 46%;
-}
-
-.programme-page-text {
-  text-align: center;
-  font-family: Noto Sans KR, sans-serif;
-  font-size: 20px;
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-.programme-list {
-  text-align: justify;
-  padding-top: 8px;
-  padding-left: 22px;
-}
-
-.programme-button-div {
-  text-align: center;
-  margin-bottom: 18px;
-}
-
-.btn-contact {
-  font-size: 20px;
-  background-color: rgb(102, 102, 102);
-  border: 2px solid white;
-  font-weight: 500;
-  color: #fafafa;
 }
 
 /*------------------------About me page*/
@@ -124,7 +83,8 @@
 }
 
 .about-me-section {
-    margin-top: 13px;
+  background-color: rgb(208, 242, 252);
+  margin-top: 13px;
 }
 
 .about-me-personal-col {
@@ -139,24 +99,105 @@
 }
 
 .about-me-heading-text-div {
+  margin-top: 20px;
 }
 
 .about-me-heading-name {
-    font-family: Oswald, sans-serif;
-    font-size: 5.5vh;
-    text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 5.5vh;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 .about-me-heading-title {
-    font-family: Oswald, sans-serif;
-    font-size: 4.8vh;
-    text-align: center;
+  font-family: Oswald, sans-serif;
+  font-size: 4.8vh;
+  text-align: center;
 }
 
 .about-me-heading-text {
-    font-family: Noto Sans KR, sans-serif;
-    font-size: 18px;
-    margin-top: 20px;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.about-me-paragraph-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-me-paragraph-section-headings {
+  font-family: Oswald, sans-serif;
+  font-size: 4.8vh;
+  text-decoration: underline;
+}
+
+.about-me-paragraph-section-text {
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify !important;
+  text-justify: inter-word !important;
+}
+
+/*------------------------Programme page  */
+
+.programme-page-header {
+  letter-spacing: 1px;
+  font-family: Oswald, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.programme-page-subtitles {
+  font-family: Oswald, sans-serif;
+  font-size: 24px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.Workout-plan-image-div {
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  width: 76%;
+}
+
+.Workout-plan-image {
+  border-radius: 46%;
+  height: 80%;
+  width: 80%;
+}
+
+.programme-page-text {
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  width: 80%;
+}
+
+.programme-list {
+  padding-top: 8px;
+  padding-left: 22px;
+}
+
+.programme-button-div {
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.btn-contact {
+  border: 2px solid white;
+  background-color: rgb(102, 102, 102);
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /*------------------------Contact page*/
@@ -180,17 +221,17 @@
 }
 
 .contact-input-bar {
-  margin-top: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 button[type="submit"] {
+  border: 2px solid #0c1f35;
+  background-color: #d4af36;
+  color: black;
   font-family: Oswald, sans-serif;
   margin-top: 15px;
   margin-bottom: 20px;
-  color: black;
-  border: 2px solid #0c1f35;
-  background-color: #d4af36;
 }
 
 .hvr-shutter-out-vertical:before {
@@ -198,7 +239,6 @@ button[type="submit"] {
   color: #ececec;
 }
 
-/*------------------------Footer*/
 /*------------------------Bg colours*/
 
 .nav-bg-color {
@@ -234,33 +274,25 @@ section {
 
 /*------------------------special paddings/ margins/ sizes*/
 
-.mainp-titles {
-  font-family: Oswald, sans-serif;
-  letter-spacing: 1px;
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
-}
-
 .breakline {
-  width: 320px;
-  height: 5px;
   border: 0;
   background-color: #0c1f35;
+  height: 5px;
+  width: 320px;
 }
 
 .section-seperator {
-  width: 400px;
-  height: 10%;
   border: 0;
   background-color: white;
+  height: 10%;
+  width: 400px;
 }
 
 #pro-heading {
   font-family: Oswald, sans-serif;
+  font-weight: 300;
   letter-spacing: 1px;
   margin-top: 20px;
-  font-weight: 300;
 }
 
 .foot-address {
@@ -273,23 +305,23 @@ section {
 }
 
 .personal-pic {
-  max-width: 300px;
-  text-align: center;
-  margin: 0 auto;
   align-content: center;
-  position: relative;
-  background-size: cover;
-  min-height: 200px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  min-height: 200px;
+  max-width: 300px;
+  position: relative;
+  text-align: center;
 }
 
 .personal-pic-container {
-  margin: 0 auto;
-  text-align: center;
   align-content: center;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .flexbox-container {
@@ -306,8 +338,8 @@ section {
 footer {
   background-color: #0c1f35;
   color: #fafafa;
-  min-width: 120px;
   margin: 0;
+  min-width: 120px;
   text-align: center;
 }
 
@@ -316,10 +348,10 @@ footer {
 }
 
 .contact-footer i {
-  font-size: 18p;
   color: #fafafa;
-  text-align: center;
+  font-size: 18p;
   padding-left: 5px;
+  text-align: center;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -335,19 +367,19 @@ footer {
 }
 
 .social-link li a i {
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
-  text-align: center;
-  color: #fafafa;
   background: #8f8f8f;
+  border-radius: 50%;
+  color: #fafafa;
+  font-size: 13px;
+  height: 32px;
+  line-height: 7px;
+  padding: 12px 0;
+  text-align: center;
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
+  width: 32px;
 }
 
 /*------------------@media*/
@@ -372,9 +404,9 @@ footer {
 
 @media (min-width: 992px) {
   .center-form {
-    padding-top: 30px;
-    min-height: 248px;
     margin: 0 auto;
+    min-height: 248px;
     max-width: 50%;
+    padding-top: 30px;
   }
 }
