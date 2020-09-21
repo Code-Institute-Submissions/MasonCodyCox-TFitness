@@ -1,39 +1,128 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# TFitness Personal Training
 
-Welcome MasonCodyCox,
+## Brief Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This is my website based on Tony Albutt, a personal friend of mine who specialises in personal training.
+The website is designed to promote his fitness brand and gain more clients.
+The website includes information about his background in personal training and ways that he would be of benefit to new clients.
+I have ensured that the site works effieciently for user experience, with clear titles describing the different fitness plans that Tony
+offers.
 
-## Gitpod Reminders
+The website is designed to attract a range of age groups however, it's main purpose is to target young adults.
+The design is a sophisticated colour scheme that is pleasing to the eye, something that is important for this particular age group.
+The website is meant to persuade visitors into signing up to T-fit, so they can begin their fitness journey. I have included plenty of
+information about each plan which gives the users an insight to what they are signing up to.
+I think the site is effective in delivering a range of information about Tony, and the knowledge he obtains.
+Overall, it's sole purpose is to provide information about T-Fit.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Design Process
 
-`python3 -m http.server`
+Before making my website I started drawing out mockups of what i invisioned -
+These were very rough but it helped to get a vague idea.
+Once I had chosen a layout I picked a colour scheme which I have consistently used throughout the site; Navy blue, grey and gold.
+The design I chose was for aesthetic purposes and to suit the age group I am targeting.
+I have kept it minimal and modern to make the user experience easier.
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+Carousel - This feature adds style and relevance to the home page. Which tells the user what the website is about. I have also used it for aesthetic purposes. I used bootstrap framework to design this.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Drop down nav-bar - This helps with keeping the site tidy and clean on smaller devices for easy navigation and better user experience. I used bootstrap frame work to design this.
 
-A blue button should appear to click: *Make Public*,
+Call to action buttons - Ways for the user to get around the site without having to scroll top to bottom. This also helps the user get the relevant information they need. I used an old coursework code to aid my design.
 
-Another blue button should appear to click: *Open Browser*.
+Contact text form - A clear and neat layout of input fields for the user to get in contact with Tony. An easy way for them to enquire about booking a session. I used one of my old code institute coursework project codes to design this.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Links to socials - An easy and modern way for clients to get in touch via other platforms. I used an old coursework code to design this.
 
-## Updates Since The Instructional Video
+#### Features left to implement
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Merchandise page - I would have had a page of Tony's merchandise however, I don't yet have the skills in javascript to make online purchases possible.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Video footage - I would have included fitness videos within the programmes page.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Technologes used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+https://getbootstrap.com/ - This is the framework I used to construct the website.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+https://stackoverflow.com/ - I used this as a resource of skils that I needed to learn e.g styling images.
 
---------
+https://www.w3schools.com/default.asp - I used this as a resource for skills e.g Styling pieces of text.
 
-Happy coding!
+https://www.w3docs.com/ - I used this to learn how to style buttons and spans.
+
+https://www.geeksforgeeks.org/ - I used this to learn different attributes for HTML.
+
+https://www.shutterestock.com/home - I used this for placeholder images whilst constructing my site.
+
+https://unsplash.com/ - I used this for my final images included in my website.
+
+https://www.sitepoint.com/community/ - I used this to learn how to style bootstraps grid system.
+
+https://ianlunn.github.io/Hover/ - I used this to design my contact page button.
+
+https://fontawesome.com/v4.7.0/ - This was used to add icons into the footer for socials
+
+https://fonts.google.com/ - This website was used to add personality to my website
+
+## Testing
+
+Nav-bar - I have tested the nav bar on every page to make sure the links to the other pages work, no matter what order they are clicked in.
+Nav-bar Logo - clicking the nav bar logo takes you to home from any page.
+Footer - Social links work in the footer on all pages.
+Google dev tools - Using the google developer tools I have made sure the website is responsive on all device sizes.
+
+Contact form
+
+1. Go to contact page
+2. Try to submit empty form, a message will appear saying _Field required_
+3. If all fields are imputted correctly the screen will refresh.
+
+Social Footer Links 
+
+1. Click on icon to social platform
+2. Page will open on a seperate tab to ensure the site is not lost
+
+#### Bugs/Problems
+
+When scaling my website down to mobile device sizes i initially found that the images, text and divs were overlapping off the side of the screen.
+I rectified this problem by learning to style images and using vh sizing in certain areas.
+
+## Deployment
+
+This project of mine is deployed via GitHub pages through my repository. There is no difference between the deployed version and the deployment version.
+
+## Credits
+
+#### Content -
+
+The Navbar, carousel and footer have all been copied from bootstrap 4. I have now styled the in my own way to fit into my website.
+The contact page form has been copied from one of my previous projects but styled to fit correctly with this website.
+
+https://getbootstrap.com/ - This is the framework I used to construct the website. the navbar and footer is constructed using this but fully styled by myself.
+
+https://stackoverflow.com/ - I used this as a resource of skils that I needed to learn e.g styling images.
+
+https://www.w3schools.com/default.asp - I used this as a resource for skills e.g Styling pieces of text.
+
+https://www.w3docs.com/ - I used this to learn how to style buttons and spans.
+
+https://www.geeksforgeeks.org/ - I used this to learn different attributes for HTML.
+
+https://www.sitepoint.com/community/ - I used this to learn how to style bootstraps grid system.
+
+https://ianlunn.github.io/Hover/ - I used this to design my contact page button.
+
+https://fontawesome.com/v4.7.0/ - This was used to add icons into the footer for socials
+
+https://fonts.google.com/ - This website was used to add personality to my website
+
+#### Media -
+
+https://unsplash.com/ - I used this for my final images included in my website.
+
+https://www.shutterestock.com/home - I used this for placeholder images whilst constructing my site.
+
+#### Acknowledgments
+
+I have taken inspiration from my previous projects that have helped me construct this one. They are on my github repository

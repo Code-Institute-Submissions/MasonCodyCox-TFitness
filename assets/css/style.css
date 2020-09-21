@@ -22,7 +22,14 @@
 
 /*------------------------ Home page  */
 
-.mainpage-title {
+#main-page-heading {
+  font-family: Oswald, sans-serif;
+  font-size: 5.5vh;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.main-page-title-span {
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -31,11 +38,11 @@
 }
 
 .first-section-with-picture {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .home-text-section {
-    background-color: rgb(208, 242, 252);
+  background-color: rgb(208, 242, 252);
 }
 
 .home-intro-text-div {
@@ -143,19 +150,15 @@
 /*------------------------Programme page  */
 
 .programme-page-header {
-  letter-spacing: 1px;
   font-family: Oswald, sans-serif;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 5.5vh;
+  margin-bottom: 16px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .programme-page-subtitles {
   font-family: Oswald, sans-serif;
-  font-size: 24px;
-  margin-top: 12px;
-  margin-bottom: 15px;
+  font-size: 4.8vh;
   text-align: center;
 }
 
@@ -174,30 +177,15 @@
 
 .programme-page-text {
   font-family: Noto Sans KR, sans-serif;
-  font-size: 20px;
-  margin: 0 auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  text-align: center;
-  width: 80%;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: justify !important;
+  text-justify: inter-word !important;
 }
 
 .programme-list {
   padding-top: 8px;
   padding-left: 22px;
-}
-
-.programme-button-div {
-  margin-bottom: 18px;
-  text-align: center;
-}
-
-.btn-contact {
-  border: 2px solid white;
-  background-color: rgb(102, 102, 102);
-  color: #fafafa;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 /*------------------------Contact page*/
@@ -223,15 +211,6 @@
 .contact-input-bar {
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-button[type="submit"] {
-  border: 2px solid #0c1f35;
-  background-color: #d4af36;
-  color: black;
-  font-family: Oswald, sans-serif;
-  margin-top: 15px;
-  margin-bottom: 20px;
 }
 
 .hvr-shutter-out-vertical:before {
@@ -286,13 +265,6 @@ section {
   background-color: white;
   height: 10%;
   width: 400px;
-}
-
-#pro-heading {
-  font-family: Oswald, sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin-top: 20px;
 }
 
 .foot-address {
@@ -380,6 +352,30 @@ footer {
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
   width: 32px;
+}
+
+/*------------------buttons*/
+
+.cta-button-div {
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.btn-cta {
+  border: 2px solid white;
+  background-color: rgb(102, 102, 102);
+  color: #fafafa;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+button[type="submit"] {
+  border: 2px solid #0c1f35;
+  background-color: #d4af36;
+  color: black;
+  font-family: Oswald, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 /*------------------@media*/
