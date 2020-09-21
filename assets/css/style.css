@@ -94,9 +94,6 @@
   margin-top: 13px;
 }
 
-.about-me-personal-col {
-}
-
 .about-me-personal-pic {
   margin: 0 auto;
 }
@@ -321,7 +318,6 @@ footer {
 
 .contact-footer i {
   color: #fafafa;
-  font-size: 18p;
   padding-left: 5px;
   text-align: center;
   transition: all 0.35s ease-in-out;
@@ -386,7 +382,7 @@ button[type="submit"] {
   }
 }
 
-@media (min-width: 640px) and (max-width: px) {
+@media (min-width: 640px) and (max-width: 4000px) {
   #pro-heading {
     font-size: 36px;
   }
