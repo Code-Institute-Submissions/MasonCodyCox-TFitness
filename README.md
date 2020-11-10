@@ -69,10 +69,49 @@ All pages - I would have liked to improve upon the way the website text is displ
 
 ## Testing
 
-Nav-bar - I have tested the nav bar on every page to make sure the links to the other pages work, no matter what order they are clicked in.
-Nav-bar Logo - clicking the nav bar logo takes you to home from any page.
-Footer - Social links work in the footer on all pages.
-Google dev tools - Using the google developer tools I have made sure the website is responsive on all device sizes.
+### General testing
+
+- Nav-bar - I have tested the nav bar on every page to make sure the links to the other pages work, no matter what order they are clicked in.
+- Nav-bar Logo - clicking the nav bar logo takes you to home from any page.
+- Footer - Social links work in the footer on all pages.
+- Tested all external links on page to ensure they open a new tab for user experience purposes.
+- Tested that all buttons work.
+- Tested all buttons to ensure they work no matter what order they are pressed in.
+
+### Validation
+
+The W3C Markup Validator and the W3C CSS Validator were both used to validate every page of this project to ensure there were no syntax errors.
+
+- Home - Pass
+- About me - Pass
+- Programmes -  Pass
+- Contact - Pass
+- CSS - Pass
+
+### Device testing
+
+During my project, I consistently checked the websited compatibility with all device sizes to ensure the best user experience possible.
+I ensured this by using Chromes built in developer tools.
+This website works well on all device sizes although I did encounter some issues on mobile device size with the text overflow.
+
+I had a number of work collegues/ friends trial the website out for feedback so that i could make improvments from early development stages
+ regarding a users experience. 
+
+
+#### Devices tested
+
+- Moto G4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- IPhone 5/SE
+- IPhone 6/7/8
+- IPhone 6/7/8Plus
+- IPhone X
+- IPad
+- IPad Pro
+- Surface Duo
+- Galaxy Fold
 
 ### Contact form
 
@@ -85,10 +124,10 @@ Google dev tools - Using the google developer tools I have made sure the website
 1. Click on icon to social platform
 2. Page will open on a seperate tab to ensure the site is not lost
 
-#### Bugs/Problems
+### Bugs/Problems
 
-When scaling my website down to mobile device sizes i initially found that the images, text and divs were overlapping off the side of the screen.
-I rectified this problem by learning to style images and using vh sizing in certain areas.
+When scaling my website down to mobile device sizes I initially found that the images, text and divs were overlapping off the side of the screen.
+I have rectified the issue with the images but the text is still an issue on mobile devices unfortuntely.
 
 ## Deployment
 
