@@ -41,7 +41,9 @@ Merchandise page - I would have had a page of Tony's merchandise however, I don'
 
 Video footage - I would have included fitness videos within the programmes page.
 
-## Technologes used
+All pages - I would have liked to improve upon the way the website text is displayed on smaller devices.
+
+## Technologies used
 
 [Bootstrap](https://getbootstrap.com/) - This is the framework I used to construct the website.
 
@@ -72,13 +74,13 @@ Nav-bar Logo - clicking the nav bar logo takes you to home from any page.
 Footer - Social links work in the footer on all pages.
 Google dev tools - Using the google developer tools I have made sure the website is responsive on all device sizes.
 
-Contact form
+### Contact form
 
 1. Go to contact page
 2. Try to submit empty form, a message will appear saying _Field required_
 3. If all fields are imputted correctly the screen will refresh.
 
-Social Footer Links 
+### Social Footer Links 
 
 1. Click on icon to social platform
 2. Page will open on a seperate tab to ensure the site is not lost
@@ -90,7 +92,26 @@ I rectified this problem by learning to style images and using vh sizing in cert
 
 ## Deployment
 
+[T-Fitness Website](https://masoncodycox.github.io/TFitness/)
+
 This project of mine is deployed via GitHub pages through my repository. There is no difference between the deployed version and the deployment version.
+
+### Deploying a Github Repository page
+
+- Firstly, in your Repository, select the Repository you wish to deploy.
+- Located in the top horizonatal bar above the Repository, click the Settings link.
+- Inside the Settings page, scroll down until you find the Github Pages Section.
+- Under the Source Section, Click the Tab with *None* Selected and set it to Master then click save.
+- Lastly, once the page has refreshed, scroll back down to the Github Pages Secton and your site URL will be located there.
+
+### Making a Local Clone
+
+- Locate the Github Repository.
+- Click the Code button.
+- copy the link that is presented to you.
+- In Gitpod, change the directory to the location you would like the cloned directory to be located.
+- Type *git clone* in the terminal and paste the link you copied previously.
+- Press enter to create your local clone. 
 
 ## Credits
 
@@ -99,29 +120,29 @@ This project of mine is deployed via GitHub pages through my repository. There i
 The Navbar, carousel and footer have all been copied from bootstrap 4. I have now styled the in my own way to fit into my website.
 The contact page form has been copied from one of my previous projects but styled to fit correctly with this website.
 
-https://getbootstrap.com/ - This is the framework I used to construct the website. the navbar and footer is constructed using this but fully styled by myself.
+[Bootstrap](https://getbootstrap.com/) - This is the framework I used to construct the website. the navbar and footer is constructed using this but fully styled by myself.
 
-https://stackoverflow.com/ - I used this as a resource of skils that I needed to learn e.g styling images.
+[Stack Overflow](https://stackoverflow.com/) - I used this as a resource of skils that I needed to learn e.g styling images.
 
-https://www.w3schools.com/default.asp - I used this as a resource for skills e.g Styling pieces of text.
+[W3Schools](https://www.w3schools.com/default.asp) - I used this as a resource for skills e.g Styling pieces of text.
 
-https://www.w3docs.com/ - I used this to learn how to style buttons and spans.
+[W3Docs](https://www.w3docs.com/) - I used this to learn how to style buttons and spans.
 
-https://www.geeksforgeeks.org/ - I used this to learn different attributes for HTML.
+[Geeks for geeks](https://www.geeksforgeeks.org/) - I used this to learn different attributes for HTML.
 
-https://www.sitepoint.com/community/ - I used this to learn how to style bootstraps grid system.
+[Site point community](https://www.sitepoint.com/community/) - I used this to learn how to style bootstraps grid system.
 
-https://ianlunn.github.io/Hover/ - I used this to design my contact page button.
+[CSS.Hover](https://ianlunn.github.io/Hover/) - I used this to design my contact page button.
 
-https://fontawesome.com/v4.7.0/ - This was used to add icons into the footer for socials
+[Font awesome](https://fontawesome.com/v4.7.0/) - This was used to add icons into the footer for socials
 
-https://fonts.google.com/ - This website was used to add personality to my website
+[Google fonts](https://fonts.google.com/) - This website was used to add personality to my website
 
 #### Media -
 
-https://unsplash.com/ - I used this for my final images included in my website.
+[Unsplash](https://unsplash.com/) - I used this for my final images included in my website.
 
-https://www.shutterestock.com/home - I used this for placeholder images whilst constructing my site.
+[Shutterstock](https://www.shutterestock.com/home) - I used this for placeholder images whilst constructing my site.
 
 #### Acknowledgments
 
