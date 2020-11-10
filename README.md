@@ -43,27 +43,27 @@ Video footage - I would have included fitness videos within the programmes page.
 
 ## Technologes used
 
-https://getbootstrap.com/ - This is the framework I used to construct the website.
+[Bootstrap](https://getbootstrap.com/) - This is the framework I used to construct the website.
 
-https://stackoverflow.com/ - I used this as a resource of skils that I needed to learn e.g styling images.
+[Stack Overflow](https://stackoverflow.com/) - I used this as a resource of skils that I needed to learn e.g styling images.
 
-https://www.w3schools.com/default.asp - I used this as a resource for skills e.g Styling pieces of text.
+[W3Schools](https://www.w3schools.com/default.asp) - I used this as a resource for skills e.g Styling pieces of text.
 
-https://www.w3docs.com/ - I used this to learn how to style buttons and spans.
+[W3Docs](https://www.w3docs.com/) - I used this to learn how to style buttons and spans.
 
-https://www.geeksforgeeks.org/ - I used this to learn different attributes for HTML.
+[Geeks for geeks](https://www.geeksforgeeks.org/) - I used this to learn different attributes for HTML.
 
-https://www.shutterestock.com/home - I used this for placeholder images whilst constructing my site.
+[Shutterstock](https://www.shutterestock.com/home) - I used this for placeholder images whilst constructing my site.
 
-https://unsplash.com/ - I used this for my final images included in my website.
+[Unsplash](https://unsplash.com/) - I used this for my final images included in my website.
 
-https://www.sitepoint.com/community/ - I used this to learn how to style bootstraps grid system.
+[Site point community](https://www.sitepoint.com/community/) - I used this to learn how to style bootstraps grid system.
 
-https://ianlunn.github.io/Hover/ - I used this to design my contact page button.
+[CSS.Hover](https://ianlunn.github.io/Hover/) - I used this to design my contact page button.
 
-https://fontawesome.com/v4.7.0/ - This was used to add icons into the footer for socials
+[Font awesome](https://fontawesome.com/v4.7.0/) - This was used to add icons into the footer for socials
 
-https://fonts.google.com/ - This website was used to add personality to my website
+[Google fonts](https://fonts.google.com/) - This website was used to add personality to my website
 
 ## Testing
 
