@@ -23,6 +23,14 @@ Once I had chosen a layout I picked a colour scheme which I have consistently us
 The design I chose was for aesthetic purposes and to suit the age group I am targeting.
 I have kept it minimal and modern to make the user experience easier.
 
+## User Stories
+
+- "I want to easily be able to navigate through the website to find whatever information I desire."
+- "I want to be able to find out more information regarding programmes and what they help someone achieve."
+- "I want to be able to find out more about Tony and what makes him a better choice than others."
+- "I want to be able to access the website from any device type and still have the same ease of access to infomation."
+- "I want to be able to view social media links on external pages so that I dont loose my way back to T-Fitness"
+
 ## Features
 
 Carousel - This feature adds style and relevance to the home page. Which tells the user what the website is about. I have also used it for aesthetic purposes. I used bootstrap framework to design this.
